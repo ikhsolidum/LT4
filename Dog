@@ -1,27 +1,14 @@
 public class Dog extends Animal {
+    private int breed;
+    public void eat() {
+        System.out.println("arf arf");
+    }
 
-private int breed;
+    public int getBreed() {
+        return breed;
+    }
 
-
-
-public void eat() {
-
-System.out.println(“arf arf”);
-
-}
-
-
-
-public int getBreed(){
-
-return breed;
-
-}
-
-
-
-public void setBreed(int breed) {
-
-this.breed = breed;
-
+    public void setBreed(int breed) {
+        this.breed = breed;
+    }
 }
